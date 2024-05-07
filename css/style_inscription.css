@@ -1,0 +1,91 @@
+body{ 
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 0.5cm; 
+   margin: 0%;
+   top:0%;
+  
+}
+ .menu { 
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     background-color:rgb(158,105,96);
+     font-size: 120%; 
+ } 
+ 
+ .inscription img#logo{ 
+      margin-left: 40%;
+      width: 30%;
+  
+ }
+ .inscription table{ 
+ 
+    border-radius:20px;
+    margin-top: 0%;
+    font-size: 0.5cm;
+ }  
+ .inscription th { 
+   font-size: large;
+   text-align: center;
+   color: rgb(6, 5, 70);
+ }
+ .inscription tr#head { 
+    margin-left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .inscription input{ 
+    border:1px solid transparent;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right:0%;
+    height:50px;
+    text-align: center;
+ } 
+ .inscription input#Util_name { 
+    width: 91%;
+ }
+ .inscription input#prenoms { 
+  width:40%;
+  margin-right:2%;
+}  
+.inscription input#nom { 
+  width: 45%;
+} 
+ .inscription select{ 
+   border-radius: 10px;
+   height: 1cm;
+   margin-left: 0.5cm;
+ } 
+ .inscription input#email { 
+  width:91%;
+ }  
+ 
+ .inscription input:focus{ 
+   background-color: rgb(238, 232, 232);
+ }  
+ .inscription input#password { 
+    width: 43%;
+ }
+ #fin 
+ { 
+  margin-left: 60%;
+  color: rgb(20, 20, 20);
+ }
+ #fin:hover{ 
+  background-color: rgb(8, 185, 53);
+  color: white;
+ }
+ footer { 
+   background-image:url("../img/Image\ de\ fond.jpg") ;
+   color: white;
+   text-align: center;
+   font-size: 0.75cm;
+   background-repeat: repeat ;
+   background-size:cover; 
+  
+ } 
+ footer img { 
+   width: 1cm;
+ }  

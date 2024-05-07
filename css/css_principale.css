@@ -1,0 +1,62 @@
+body::-webkit-scrollbar {
+    width: 11px;
+  }
+  body::-webkit-scrollbar-track {
+    background: rgb(194, 194, 194);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(88, 88, 88); 
+    border-radius: 40px; 
+  }
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(131, 131, 131); 
+    border-radius: 40px; 
+  }
+  a { 
+    text-decoration: none;
+ }
+ #page { 
+  font-family:mv boli;
+}  
+#page:hover{
+  text-shadow: 1px 0px 20px #ffd200;
+  -webkit-transition: 1s linear 0s;
+  -moz-transition: 1s linear 0s;
+  -o-transition: 1s linear 0s;
+  transition: 1s linear 0s;
+  outline: 0 none;
+} 
+img#icon {
+  width:10%;
+}
+.menu a { 
+  color: white;
+} 
+#option{
+list-style-type: none;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+}  
+#option li{
+margin-right: 30px;
+} 
+#user { 
+display: block;
+border: 1px solid white;
+width:25px;
+border-radius: 100%;
+}
+.essai a:hover{
+color: salmon;
+text-shadow: 1px 0px 20px #cf1515;
+-webkit-transition: 1s linear 0s;
+-moz-transition: 1s linear 0s;
+-o-transition: 1s linear 0s;
+transition: 1s linear 0s;
+outline: 0 none;
+}
+.essai:hover{ 
+transition: all 1s;
+transform: scale(1.2, 1.2);
+}

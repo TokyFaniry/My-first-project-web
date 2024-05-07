@@ -1,0 +1,243 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 0.5cm; 
+    margin: 0%;
+    top:0%
+}
+  
+.menu { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(1,15,26,255);
+    font-size: 120%; 
+} 
+
+
+
+.slideshow-container {
+  margin-top:2%;
+  margin-left:3%;
+  width:95%;
+  position: relative;
+  size-adjust: cover;  
+  box-sizing: border-box; 
+}
+.mySlides{display:none;}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+} 
+.next img{
+  width: 1cm;
+}
+.prev img{
+  width: 1cm;
+}
+
+.prev:hover, .next:hover {
+  opacity: 0.5;
+  background-color: rgb(248, 248, 248);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 95%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+ .a_voir table{ 
+    display: flex; 
+ }
+ .a_voir a {
+    color:black; 
+ } 
+ .a_voir img { 
+    border-radius: 5%;
+ }
+.th { 
+    margin-left: 5%;
+    color: rgb(8, 12, 56);
+}
+.diap1 { 
+    width:400px;
+    height:400px; 
+    background-size: cover;
+    animation: fondu 30s ease-out infinite both;
+    border-radius: 5%;
+    margin-bottom: 10%;
+} 
+.diap1:hover{
+    animation-play-state: paused;
+}
+@keyframes fondu {
+    0%{background-image: url(../img/james_webb/d1.jpg);}
+    33.33%{background-image: url(../img/james_webb/d2.jpg);}
+    66.67%{background-image: url(../img/james_webb/d3.jpg);}
+    100%{background-image: url(../img/james_webb/d4.jpg);}
+ }
+ .diap1 p {
+  color:white;
+  margin-left: 0.2cm;
+  margin-top: 0.4cm;
+ }
+
+ .telescope {
+   
+    border-radius:5%;
+ }
+  
+.terre img {
+  width: 400px;
+  height:400px; 
+} 
+ .terre {
+  
+  border-radius:5%; 
+ }  
+ .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: gray ;
+  border-radius: 8%;
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+  background-color: gray;
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  bottom: 8px;
+  width: 100%;
+  margin-top:10%;
+  font-family: 'Courier New', Courier, monospace;
+}
+ 
+  table#perseverance img{
+    width: 400px;
+    height:400px; 
+  } 
+  .to_know p { 
+    margin-left: 5%;
+  }
+  .to_know a {
+    color: black;
+  }
+  .to_know a:hover { 
+    color: rgb(13, 75, 168);
+  }
+  footer { 
+    background-image:url("../img/Image\ de\ fond.jpg") ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size:100%;
+    background-repeat: repeat ;
+    background-size:cover; 
+    margin: 0;
+    padding: 0;
+   
+  } 
+  footer img { 
+    width: 4%;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  footer #icon { 
+    width: 80%;
+    margin-left: 10%;
+  } 
+  #connect {/*Definig font could be useful!*/
+    font-size:200%;
+    color: #ffffff;
+    font-family:Arial;
+    }
+  #connect:hover {
+ text-shadow: 1px 0px 20px #ffd200;
+ -webkit-transition: 1s linear 0s;
+ -moz-transition: 1s linear 0s;
+ -o-transition: 1s linear 0s;
+ transition: 1s linear 0s;
+ outline: 0 none;
+    }

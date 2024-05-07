@@ -1,0 +1,96 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 0.5cm; 
+    margin: 0%;
+    top:0%;
+} 
+
+  .menu { 
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color:rgba(20,54,82,255);
+      font-size: 120%; 
+  } 
+ 
+  
+  .connexion> table{ 
+    margin-top: 0%; 
+   border-radius: 20px;
+   padding-bottom: 2%;
+} 
+.connexion h1{ 
+   color: rgb(255, 255, 255);
+   text-shadow: 1px 0px 20px #00d9ff;
+   -webkit-transition: 1s linear 0s;
+   -moz-transition: 1s linear 0s;
+   -o-transition: 1s linear 0s;
+   transition: 1s linear 0s;
+   outline: 0 none;
+
+}
+.connexion input { 
+   text-align: center;
+   font-size: 0.5cm;
+   border-radius: 50px;
+   margin-left:1cm ;
+   width:15cm;
+   height: 1cm;
+   border-color: transparent;
+} 
+.connexion input#connexion { 
+   width: 20%;
+   margin-left: 38%;
+   border: 2px solid rgb(30,205,151);
+   color: rgb(32, 59, 51);
+} 
+.connexion input#connexion:hover { 
+  background-color:rgb(30,205,151);
+  color: white;
+} 
+.connexion td#connexion{ 
+   border-radius: 1%;
+}
+.connexion td#inscription { 
+   text-align: right;
+} 
+.connexion td#inscription a{
+   color: rgb(233, 234, 243); 
+   text-shadow: 1px 0px 20px #ffd200;
+   -webkit-transition: 1s linear 0s;
+   -moz-transition: 1s linear 0s;
+   -o-transition: 1s linear 0s;
+   transition: 1s linear 0s;
+   outline: 0 none;
+}
+.connexion td#inscription a:hover {
+   color: white;
+   text-shadow: 1px 0px 20px #00d9ff;
+   -webkit-transition: 1s linear 0s;
+   -moz-transition: 1s linear 0s;
+   -o-transition: 1s linear 0s;
+   transition: 1s linear 0s;
+   outline: 0 none;
+} 
+.connexion label#adresse{ 
+   text-align: center;
+} 
+.connexion label#mdp { 
+   text-align: center;
+}
+.connexion img { 
+       width: 1cm; 
+       margin-top: 0.cm;
+} 
+.connexion td#continuer { 
+   text-align: center;
+} 
+.connexion td#icon { 
+   text-align: center;
+} 
+.connexion img#logo { 
+   margin-left: 40%;
+   width: 20%;
+}
